@@ -1,0 +1,379 @@
+@charset "utf-8";
+/* CSS Document */
+
+#image{
+  height:150px;
+  line-height: 150px;
+}
+img{
+  vertical-align:baseline;
+}
+
+#cirback
+{
+	
+	    width: 100px;
+	margin-left:48%;
+	margin-right:52%;
+	max-height:50%;
+	max-width:50%;
+	   height: 100px;
+	   	   font-family:Oklahoma;
+		   z-index:-1;
+    -moz-border-radius: 50%; 
+    -webkit-border-radius: 50%; 
+    border-radius: 50%;
+	-webkit-transition:all ease-in;
+	-webkit-transition:all ease-out;
+	-webkit-transition-duration:.5s;
+	background-color:#B81D18;
+	background-size:contain;
+	box-shadow:rgba(80,1,0,1);
+	color:rgba(255,255,255,1);
+}
+
+#scrolly
+{
+	    width: 80px;
+	vertical-align:central;
+	margin-left:11%;
+	margin-right:89%;
+	margin-top:20%;
+	   height: 80px;
+	   line-height:80px;
+	   font-family:Oklahoma;
+    -moz-border-radius: 50%; 
+    -webkit-border-radius: 50%; 
+    border-radius: 50%;
+	-webkit-transition:all ease-in;
+	-webkit-transition:all ease-out;
+	-webkit-transition-duration:.5s;
+	background-color:#202020;
+	background-size:contain;
+    text-align:center;
+	box-shadow:rgba(80,1,0,1);
+}
+#bar
+{
+	width:auto;
+	height:20%;
+	left:0 px;
+	top:-190%;
+	background-color:rgba(0,74,0,1);
+	opacity:.5;
+}
+
+.head
+{
+	alignment-adjust:ideographic;
+	ruby-position:before;
+	text-align:end;
+	margin-top:50%;
+	font-size:24px;
+	font-family:DeconStruct-Black, DeconStruct-BlackOblique, David, DaunPenh;
+	-webkit-transition:all ease-in;
+	-webkit-transition:all ease-out;
+	-moz-transition:all ease-in;
+	-moz-transition:all ease-out;
+	-webkit-animation-delay:.3s;
+}
+
+#inter
+{
+		width: 20%;
+	z-index:28;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+        opacity: .8;
+	background-color:#393939;
+		background-size:cover;
+		-moz-transition:all ease-in;
+		-webkit-transition:all ease-in;
+		-webkit-transition:all ease-out;
+		-webkit-transition-duration:.7s;
+		box-shadow:rgba(0,12,0,1);
+	
+}
+#gathering
+{	width: 30%;
+	z-index:25;
+    height: 100%;
+    position:absolute;
+	opacity:.8;
+    top: 0px;
+    left: 0px;
+	background-color:#FF5A09;
+		background-size:cover;
+		-moz-transition:all ease-in;
+		-webkit-transition:all ease-in;
+		-webkit-transition:all ease-out;
+		-webkit-transition-duration:.7s;
+		box-shadow:rgba(0,12,0,1);
+	
+}
+#music
+{
+	width: 40%;
+	z-index:23;
+    height: 100%;
+    position:absolute;
+    top: 0px;
+    left: 0px;
+        opacity: .8;
+	background-color:#FF9900;
+		background-size:cover;
+		-moz-transition:all ease-in;
+		-webkit-transition:all ease-in;
+		-webkit-transition:all ease-out;
+		-webkit-transition-duration:.7s;
+		box-shadow:rgba(0,12,0,1);
+}
+
+#bible1
+{ width: 50%;
+    height: 100%;
+    position:absolute;
+    top: 0px;
+	z-index:10;
+    left: 0px;
+        opacity: .8;
+		background-color:#6E6E6E;
+				background-size:cover;
+		-moz-transition:all ease-in;
+		-webkit-transition:all ease-in;
+		-webkit-transition:all ease-out;
+		-webkit-transition-duration:.7s;
+		box-shadow:rgba(0,12,0,1);
+}
+#min
+{
+	width:50%;
+	height:100%;
+	position:absolute;
+	top:0%;
+	left:50%;
+	background-image:url(son-of-god-movie-still-2.jpg);
+	text-align:center;
+	font-size:72px;
+	font-family:"20th Century Font";
+
+}
+header
+{
+	left:70%;
+	margin-left:auto;
+	margin-right:auto;
+	top:auto;
+	alignment-adjust:central;
+	margin-left:20em;
+	color:rgba(255,251,240,1);
+	font-family:"20th Century Font";
+	z-index:91;
+}
+#circle {
+    width: 200px;
+	vertical-align:central;
+	left:50px;
+	right:50px;
+	top:50px;
+	margin-top:10em;
+	margin-left: auto;
+	margin-right:auto;
+	   height: 200px;
+    -moz-border-radius: 50%; 
+    -webkit-border-radius: 50%; 
+    border-radius: 50%;
+	-webkit-transition:all ease-in;
+	-webkit-transition:all ease-out;
+	-webkit-transition-duration:.5s;
+	background-color:rgba(255,255,255,1);
+	opacity:.5;
+	background-image:url(jy-logo-only-Fine-300x300.png);
+	background-size:contain;
+    text-align:center;
+	box-shadow:rgba(255,251,240,1);
+}
+#circle:hover
+{
+	width: 230px;
+    height: 230px;
+    -moz-border-radius: 50%; 
+    -webkit-border-radius: 50%;
+	-webkit-transition:all ease-in;
+	-webkit-transition:all ease-out;
+	-webkit-transition-duration:.5s;
+    border-radius: 50%;
+	background-color:rgba(255,251,240,1);
+	opacity:1;
+	color:rgba(0,255,85,1);
+	text-align:center;
+	box-shadow:rgba(80,1,0,1);
+
+}
+#hide
+{width: 80px;
+    height: 80px;
+    -moz-border-radius: 50%; 
+    -webkit-border-radius: 50%;
+	-webkit-transition:all ease-in;
+	-webkit-transition:all ease-out;
+    border-radius: 50%;
+	text-align:center;
+	box-shadow:rgba(80,1,0,1);
+	margin-left:auto;
+	margin-left:auto;
+	display: block;
+	background-image:url(Bible.png);
+	background-size:contain;
+}
+/*
+#hide:hover
+{
+	width: 80px;
+    height: 80px;
+    -moz-border-radius: 50%; 
+    -webkit-border-radius: 50%;
+	-webkit-transition:all ease-in;
+	-webkit-transition:all ease-out;
+    border-radius: 50%;
+	background-color:rgba(212,0,0,1);
+	text-align:center;
+	box-shadow:rgba(80,1,0,1);
+	display:block;
+
+
+	}
+	*/
+	#hide1
+	
+{
+	direction:rtl;
+	width: 80px;
+    height: 80px;
+    -moz-border-radius: 50%; 
+    -webkit-border-radius: 50%;
+	-webkit-transition:all ease-in;
+	-webkit-transition:all ease-out;
+    border-radius: 50%;
+	background-color:rgba(212,0,255,1);
+	text-align:center;
+	box-shadow:rgba(80,1,0,1);
+	margin-left:auto;
+	margin-right:auto;
+	display:none;
+}
+#bibtxt
+{
+	opacity:1;
+	color:rgba(255,255,255,1);
+	alignment-adjust:central;
+	text-emphasis:center;
+	text-align:center;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:14px;
+	text-align-last:center;
+	display:none;
+	
+	top:50%;
+	left:50%;
+}
+#bible
+{
+	opacity:0.8;
+position: absolute;
+top:25%;
+left:25%;
+height: 50%;
+width: 50%;
+background: #000;
+display: none;
+border-radius:5%;
+-webkit-transition:all ease-out;
+}
+#rnd
+{
+	width: 80px;
+    height: 80px;
+    -moz-border-radius: 50%; 
+    -webkit-border-radius: 50%;
+	-webkit-transition:all ease-in;
+	-webkit-transition:all ease-out;
+    border-radius: 50%;
+	background-color:rgba(212,0,255,1);
+	text-align:center;
+	box-shadow:rgba(80,1,0,1);
+	margin-left:auto;
+	margin-right:auto;
+	  -webkit-animation: round 5s infinite;
+	  animation-timing-function:linear;
+	  -webkit-animation-timing-function: all ease-in; 
+    animation: round 5s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
+@-webkit-keyframes round {
+        0%{ width:20px; height:20px;}
+		/*25%{width:50px; height:50px;}*/
+    50%{width:80px; height:80px;}
+	/*75%{width:50px; height:50px;}*/
+    100%{width:20px; height:20px;}
+}
+@keyframes round {
+        0%{ width:20px; height:20px;}
+		/*25%{width:50px; height:50px;}*/
+    50%{width:80px; height:80px;}
+	/*75%{width:50px; height:50px;}*/
+    100%{width:20px; height:20px;}
+}
+
+#back
+{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+	background-image:url(Youth%20gathering%202.jpg);
+    background-color:rgba(0,111,0,1);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+#details
+{   position: absolute;
+    top: 100%;
+    left: 0px;
+    background: #FFF;
+    width: 100%;
+	height:100%;
+    min-height: 100%;
+	-webkit-transition:linear ease-in-out 5s;
+	-webkit-animation-delay:2s;
+	
+}
+#what
+{ 
+   
+    position:absolute;
+    top: 200%;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+	background-image:url(bannerimage.jpg);
+    background-color:rgba(0,111,0,1);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+#whattxt
+{
+	font-family:Oklahoma;
+	font-size:58px;
+	color:rgba(255,255,255,1);
+	margin-left:10em;
+	
+}

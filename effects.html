@@ -1,0 +1,153 @@
+<!doctype html>
+<html>
+<head>
+<title>JY MACE|JESUS YOUTH</title>
+<link rel="stylesheet" type="text/css" href="effects.css" />
+<script src="effects.js"></script>
+<script src="jquery-2.1.1.js"></script>
+<script src="jquery.min.js"></script>
+<script src="jquery.scrolly.min.js"></script>
+<script src="jquery.dropotron.min.js"></script>
+</head>
+<body>
+<div id="back">
+
+ <!--<div id="image">
+<img id="refine" src="refined.jpg" width="33%" height="700" style="opacity:.5">
+<img src="radiant.jpg"  width="33%" height="700" style=" opacity:.5;">
+<img src="renewed.jpg" width="33%" height="700" style="opacity:.5;"></div>
+-->
+</div>
+
+<div  id="circle">
+</div>
+<header id="header">
+<h1>MAR ATHANASIUS COLLEGE OF ENGINEERING</h1></header>
+<a href="#"  style="text-decoration:none;"><div id="cirback"><p id="scrolly">MINISTRIES</p></div></a>
+<div id="rnd1"></div>
+<div id="details">
+<div id="bible1">
+<p class="head">BIBLE  <br> MINISTRY</p>
+<p id="bibtxt">This is your place to go creative
+
+The Bible ministry holds a lot of surprises for us each Friday. We have a wide range of thought provoking activities and also many fun games played. It can vary from Bible skits to quizzes…’kadha-prasangams’…dumb-charades and what not?…but at the end of it all we make sure that we take away some inspiring message from it…something that will add more meaning to life or add a new aspect to our understanding of the Bible. We also get to share our experiences with the word of God…It’s a very dynamic ministry and we are always open to experimenting new ideas
+</p>
+</div>
+<div id="music">
+<p class="head">MUSIC<BR> MINISTRY</p>
+</div>
+<div id="gathering">
+<p class="head">MAIN<BR> GATHERING</p>
+</div>
+<div id="inter">
+<p class="head">INTERCESSION<BR>MINISTRY</p>
+</div>
+<div id="min">MINISTRIES</div>
+
+</div>
+
+</div>
+
+
+<div id="hide1"></div>
+
+<div id="what">
+<p id="whattxt">what's new</p>
+</div>
+
+<script>
+$("#scrolly").on("click",function(){
+	$('html,body').animate({
+        scrollTop: $("#details").offset().top},
+        '100s');});
+$("#inter").on("mouseover",function()
+{$("#inter").css("width","60%");
+$("#inter").css("left","0px");
+});
+$("#inter").on("mouseleave",function()
+{$("#inter").css("width","20%");
+$("#inter").css("left","0px");
+});
+$("#gathering").on("mouseenter",function()
+{$("#gathering").css("width","70%");
+$("#gathering").css("left","20px");
+});
+$("#gathering").on("mouseleave",function()
+{$("#gathering").css("width","30%");
+$("#gathering").css("left","0px");
+});
+$("#bible1").on("mouseenter",function(){
+	$("#bible1").css("width","60%");
+	$("#bible1").css("left","40%");
+	$("#bibtxt").css("display","block");
+	
+});
+$("#bible1").on("mouseleave",function(){
+	$("#bible1").css("width","50%");
+	$("#bibtxt").css("display","none");
+	$("#bible1").css("left","0px");
+});
+$("#music").on("mouseenter",function(){
+	$("#music").css("width","80%")
+});
+$("#music").on("mouseleave",function(){
+	$("#music").css("width","40%")
+});
+
+$("#bible1").on("mouseenter",function(){
+	$(".head").css("text-align","center");
+	$(".head").css("margin-top","5%");
+});
+$("#bible1").on("mouseleave",function(){
+	$(".head").css("text-align","end");
+	$(".head").css("margin-top","50%");
+});
+$("#gathering").on("mouseenter",function(){
+	$(".head").css("text-align","center");
+	$(".head").css("margin-top","5%");
+});
+$("#gathering").on("mouseleave",function(){
+	$(".head").css("text-align","end");
+	$(".head").css("margin-top","50%");
+});
+$("#inter").on("mouseenter",function(){
+	$(".head").css("text-align","center");
+	$(".head").css("margin-top","5%");
+});
+$("#inter").on("mouseleave",function(){
+	$(".head").css("text-align","end");
+	$(".head").css("margin-top","50%");
+});
+$("#music").on("mouseenter",function(){
+	$(".head").css("text-align","center");
+	$(".head").css("margin-top","5%");
+});
+$("#music").on("mouseleave",function(){
+	$(".head").css("text-align","end");
+	$(".head").css("margin-top","50%");
+});
+
+/*$("#circle").on("mouseenter",function()
+{$("
+#hide1").show("slow","linear");
+});
+$("#circle").on("mouseleave",function()
+{$("#hide").hide("slow","linear");
+});
+$("#circle").on("mouseleave",function()
+{$("#hide1").hide("slow","linear");
+});
+$("#hide").on("mouseover",function()
+{$("#hide").show("fast","linear");
+});*/
+$("#hide").click(function() {
+$("#bible").css("display", "block");
+});
+$("#bible").on("mouseleave",function()
+{$("#bible").hide("slow","linear");}
+);
+
+</script>
+</body>
+
+</html>
